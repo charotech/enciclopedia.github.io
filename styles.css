@@ -134,7 +134,7 @@ footer {
     z-index: 1000;
     display: flex;
     align-items: center;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 #floating-ad .ad-image {
