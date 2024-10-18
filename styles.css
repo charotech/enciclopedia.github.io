@@ -124,7 +124,7 @@ footer {
 
 #floating-ad {
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
     background-color: white;
     border: 1px solid #ccc;
@@ -132,17 +132,22 @@ footer {
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    max-width: 250px;
 }
 
 #floating-ad .ad-image {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-right: 10px;
+    flex-shrink: 0;
 }
 
 #floating-ad p {
     margin: 0;
     font-size: 14px;
+    line-height: 1.4;
+    flex-grow: 1;
 }
-
