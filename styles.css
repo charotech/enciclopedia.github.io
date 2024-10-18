@@ -18,7 +18,7 @@
 /* Estilos para el contenido de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f2f7;
     margin: 0;
 }
 
@@ -27,6 +27,8 @@ header {
     color: black;
     padding: 20px;
     text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .search-header {
@@ -39,7 +41,7 @@ header {
     width: 300px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 10px 10px 10px;
+    border-radius: 20px 20px 20px;
 }
 
 .container {
@@ -59,13 +61,13 @@ header {
     flex: 1;
     background-color: white;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .entry {
     background-color: white;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
@@ -76,7 +78,8 @@ footer {
     padding: 20px;
     text-align: center;
     margin-top: 20px;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .sponsors-grid {
@@ -128,7 +131,7 @@ footer {
     right: 20px;
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
